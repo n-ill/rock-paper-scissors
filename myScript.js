@@ -122,8 +122,8 @@ function updateScore() {
     const pScore = document.querySelector('.player-score');
     const cScore = document.querySelector('.cpu-score');
 
-    pScore.textContent = playerScore;
-    cScore.textContent = cpuScore;
+    pScore.textContent = `Your score: ${playerScore}`;
+    cScore.textContent = `Computer score: ${cpuScore}`;
 
     checkWinner();
 }
